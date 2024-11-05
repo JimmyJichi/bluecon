@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: bluecon
+Version: 0.1.2
+Summary: Library for connecting to Fermax Blue supported doorbells
+Project-URL: Homepage, https://bluecon.afonsogarcia.dev
+Project-URL: Bug Tracker, https://github.com/AfonsoFGarcia/bluecon/issues
+Author-email: Afonso Garcia <bluecon@afonsogarcia.dev>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# BlueCon
+
+Library for connecting to Fermax Blue supported doorbells.
+
+### Tested Devices:
+
+* Fermax Veo XS WiFi (9449)
+
+## Installation
+
+```sh
+pip install bluecon
+```
+
+## Acknowledgements
+
+I'd like to thank all contributors of [push_receiver](https://github.com/louisliv/push_receiver) and its many forks for provinding a library that can receive push notifications from Firebase. This is the essencial part of how Fermax Blue works in terms of receiving the doorbell rings and without it this project would be close to pointless. This library is included with some minor changes in this repo.
